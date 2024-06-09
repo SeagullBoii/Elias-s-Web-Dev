@@ -1,0 +1,116 @@
+*{
+    font-family: cursive;
+}
+
+body {
+    background-color: #2E334D;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 35px;
+
+    outline-color: rgba(0, 0, 0, 0.45);
+    outline-style: solid;
+    outline-width: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    h1 {
+        flex: 1;
+
+        color: #C3C9E9;
+        text-align: center;
+        font-size: 500%;
+        margin: 0;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    button {
+        border: solid #24292E;
+        border-radius: 10px;
+
+        width: 200px;
+        height: 60px;
+
+        font-size: 150%;
+
+        color: #C3C9E9;
+        background-color: #49516F;
+    }
+
+    button:hover {
+        background-color: #363C5B;
+        font-size: 170%;
+    }
+
+    button:active {
+        
+        background-color: #2d324d;
+        font-size: 150%;
+    }
+}
+
+.main-calc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 18px;
+    height: 750px;
+    width: 600px;
+
+    input[type='text'] {
+        width: 88%;
+        height: 80px;
+
+        padding: 3px 6px;
+        position: relative;
+        top: 5px;
+        outline: none;
+        
+        font-size: 40px;
+        display: flex;
+        
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        border: 5px solid rgba(0, 0, 0, 0.7);
+        background-color: #C3C9E9;
+        color: #24292E;
+        text-align: center;
+    }
+
+    .btn input[type='button']{
+        background-color: #C3C9E9;
+        color: #24292E;
+        font-family: fantasy;
+        width: 120px;
+        height: 90px;
+        margin: 10px;
+        margin-top: 20px;
+        font-size: 300%;
+        border-radius: 8px;
+     }
+     
+     .btn input[type='button']:hover{
+        background-color: #a6add3b7;
+     }
+}
+
+ 
+
+ 

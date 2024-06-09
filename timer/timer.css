@@ -1,0 +1,117 @@
+*{
+    font-family: cursive;
+}
+
+body {
+    background-color: #2E334D;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 35px;
+
+    outline-color: rgba(0, 0, 0, 0.45);
+    outline-style: solid;
+    outline-width: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+    h1 {
+        flex: 1;
+
+        color: #C3C9E9;
+        text-align: center;
+        font-size: 500%;
+        margin: 0;
+
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    button {
+        border: solid #24292E;
+        border-radius: 10px;
+
+        width: 200px;
+        height: 60px;
+
+        font-size: 150%;
+
+        color: #C3C9E9;
+        background-color: #49516F;
+    }
+
+    button:hover {
+        background-color: #363C5B;
+        font-size: 170%;
+    }
+
+    button:active {
+        
+        background-color: #2d324d;
+        font-size: 150%;
+    }
+}
+
+.timer-container {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.timer-input input {
+    width: 160px;
+    height: 80px;
+    padding: 10px;
+    margin: 5px;
+    margin-top: 25px;
+
+    font-size: 38px;
+    text-align: center;
+    background-color: #C3C9E9;
+    color: #24292E;
+    
+    border-radius: 16px;
+    border-color: #2E334D;
+    outline-color: #2E334D;
+}
+
+.timer-input input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.timer-input input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.timer-display {
+    font-size: 48px;
+    margin: 20px 0;
+    margin-top: 35px;
+    color:#C3C9E9;
+}
+
+.timer-controls button {
+    padding: 10px 30px;
+    margin: 5px;
+    margin-top: 25px;
+    font-size: 32px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: #22263a;
+    color: #C3C9E9;
+}
+
+.timer-controls button:disabled {
+    background-color: #191c2a;
+    color: #22263a;
+    cursor: not-allowed;
+}
