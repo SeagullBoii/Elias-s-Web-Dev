@@ -72,14 +72,14 @@ body {
     .container {
         background: rgba(0, 0, 0, 0.25);
         padding: 20px;
-        border-radius:10px;
+        border-radius: 10px;
         width: 500px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         position: absolute;
-        
-    outline-color: rgba(0, 0, 0, 0.45);
-    outline-style: solid;
-    outline-width: 10px;
+
+        outline-color: rgba(0, 0, 0, 0.45);
+        outline-style: solid;
+        outline-width: 10px;
     }
 
     input {
@@ -108,7 +108,7 @@ body {
     }
 
     ul {
-        list-style:none;
+        list-style: none;
         padding: 0;
     }
 
@@ -121,10 +121,10 @@ body {
         border-radius: 5px;
         margin-top: 10px;
         margin-bottom: 0;
-        background-color:#C3C9E9;
+        background-color: #C3C9E9;
         font-size: 30px;
-        text-overflow:clip;
-                cursor: move;
+        text-overflow: clip;
+        cursor: move;
     }
 
     li .delete-button {
@@ -136,7 +136,7 @@ body {
         padding: 5px;
         border-radius: 50%;
         cursor: pointer;
-        
+
     }
 
     li .delete-button:hover {

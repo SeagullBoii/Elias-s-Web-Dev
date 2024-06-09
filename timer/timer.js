@@ -1,4 +1,4 @@
-document.getElementById("back-button").onclick = function() {
+document.getElementById("back-button").onclick = function () {
     window.location.href = "../index.html";
 };
 
@@ -44,14 +44,14 @@ function updateTimer() {
 
         totalTime--;
         timerDisplay.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-        
+
         startButton.disabled = false;
         pauseButton.disabled = true;
         resetButton.disabled = true;
 
         return;
     }
-    
+
 
     totalTime--;
 

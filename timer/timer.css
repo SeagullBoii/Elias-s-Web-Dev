@@ -1,4 +1,4 @@
-*{
+* {
     font-family: cursive;
 }
 
@@ -53,7 +53,7 @@ body {
     }
 
     button:active {
-        
+
         background-color: #2d324d;
         font-size: 150%;
     }
@@ -76,7 +76,7 @@ body {
     text-align: center;
     background-color: #C3C9E9;
     color: #24292E;
-    
+
     border-radius: 16px;
     border-color: #2E334D;
     outline-color: #2E334D;
@@ -88,14 +88,14 @@ body {
 }
 
 .timer-input input[type=number] {
-    -moz-appearance:textfield;
+    -moz-appearance: textfield;
 }
 
 .timer-display {
     font-size: 48px;
     margin: 20px 0;
     margin-top: 35px;
-    color:#C3C9E9;
+    color: #C3C9E9;
 }
 
 .timer-controls button {

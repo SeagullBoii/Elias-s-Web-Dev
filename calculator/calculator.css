@@ -1,4 +1,4 @@
-*{
+* {
     font-family: cursive;
 }
 
@@ -53,7 +53,7 @@ body {
     }
 
     button:active {
-        
+
         background-color: #2d324d;
         font-size: 150%;
     }
@@ -80,10 +80,10 @@ body {
         position: relative;
         top: 5px;
         outline: none;
-        
+
         font-size: 40px;
         display: flex;
-        
+
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -94,7 +94,7 @@ body {
         text-align: center;
     }
 
-    .btn input[type='button']{
+    .btn input[type='button'] {
         background-color: #C3C9E9;
         color: #24292E;
         font-family: fantasy;
@@ -104,13 +104,9 @@ body {
         margin-top: 20px;
         font-size: 300%;
         border-radius: 8px;
-     }
-     
-     .btn input[type='button']:hover{
+    }
+
+    .btn input[type='button']:hover {
         background-color: #a6add3b7;
-     }
+    }
 }
-
- 
-
- 

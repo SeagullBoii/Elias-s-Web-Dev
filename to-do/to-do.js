@@ -1,6 +1,6 @@
 document.getElementById("back-button").onclick = function () {
     window.location.href = "../index.html";
- };
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     const addButton = document.getElementById('add-button');
