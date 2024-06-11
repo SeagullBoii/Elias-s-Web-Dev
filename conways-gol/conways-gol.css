@@ -1,0 +1,144 @@
+* {
+    font-family: cursive;
+}
+
+body {
+    background-color: #2E334D;
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 35px;
+    outline-color: rgba(0, 0, 0, 0.45);
+    outline-style: solid;
+    outline-width: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.top-bar h1 {
+    flex: 1;
+    color: #C3C9E9;
+    text-align: center;
+    font-size: 500%;
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    text-wrap: nowrap;
+    transform: translateX(-50%);
+}
+
+.top-bar button {
+    border: solid #24292E;
+    border-radius: 10px;
+    width: 200px;
+    height: 60px;
+    font-size: 150%;
+    color: #C3C9E9;
+    background-color: #49516F;
+}
+
+.top-bar button:hover {
+    background-color: #363C5B;
+    font-size: 170%;
+}
+
+.top-bar button:active {
+    background-color: #2d324d;
+    font-size: 150%;
+}
+
+
+
+#gol {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    background-color: #C3C9E9;
+    color: #2E334D;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #adb4da;
+}
+
+.speed-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 220px;
+    height: 25px;
+    margin-top: 20px;
+    background: #adb4da;
+    border-radius: 8px;
+    outline: none;
+    -webkit-transition: .2s;
+    transition: .2s;
+}
+
+.speed-slider:hover {
+    background: #C3C9E9;
+}
+
+.speed-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    background: #c12d2d;
+    cursor: pointer;
+}
+
+.speed-slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #c12d2d;
+    cursor: pointer;
+}
+
+#slider-text {
+    text-align: center;
+    color: #C3C9E9;
+    font-size: 25px;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(80, 10px);
+    grid-template-rows: repeat(80, 10px);
+    gap: 1px;
+    border: 10px solid rgba(0, 0, 0, 0.45);
+}
+
+.cell {
+    width: 10px;
+    height: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.cell.alive {
+    background-color: #C3C9E9;
+}
+
+#generation {
+    text-align: center;
+    color: #C3C9E9;
+    font-size: 25px;
+}

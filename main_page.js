@@ -8,3 +8,6 @@ document.getElementById("timer-button").onclick = function () {
 document.getElementById("to-do-button").onclick = function () {
     window.location.href = "to-do/to-do.html";
 };
+document.getElementById("conway-button").onclick = function () {
+    window.location.href = "conways-gol/conways-gol.html";
+};
