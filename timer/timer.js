@@ -60,8 +60,13 @@ function updateTimer() {
 
 function pauseTimer() {
     clearInterval(timerInterval);
+    [h, min, s] = timerDisplay.textContent.split(":");
+    document.getElementById('hours').value = h;
+    document.getElementById('minutes').value = min;
+    document.getElementById('seconds').value = s;
     startButton.disabled = false;
     pauseButton.disabled = true;
+
 }
 
 function resetTimer() {
