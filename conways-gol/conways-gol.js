@@ -37,7 +37,7 @@ for (let i = 0; i < size * size; i++) {
             modifiedCells.add(cell);
         }
     });
-    
+
     grid.appendChild(cell);
     currentGrid.push(false);
     nextGrid.push(false);

@@ -4,7 +4,8 @@ document.getElementById("back-button").onclick = function () {
 
 function Solve(val) {
    document.getElementById('res').addEventListener('keydown', (event) => {
-      if (event.key == 'Enter' || event.keyCode == 13) {
+      if (event.key === "Enter") {
+         event.preventDefault();
          eval(document.getElementById('res').value);
          document.getElementById('res').value = num2;
       }

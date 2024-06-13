@@ -16,7 +16,7 @@ inputField.addEventListener('keypress', function (e) {
 });
 
 document.getElementById("clear-button").onclick = function () {
-    while (todoList.firstChild) 
+    while (todoList.firstChild)
         todoList.removeChild(todoList.firstChild);
     saveItems();
 };

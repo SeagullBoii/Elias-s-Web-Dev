@@ -48,25 +48,23 @@ function updateTimer() {
         startButton.disabled = false;
         pauseButton.disabled = true;
         resetButton.disabled = true;
-
         return;
     }
 
-
     totalTime--;
-
     timerDisplay.textContent = `${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
 }
 
 function pauseTimer() {
     clearInterval(timerInterval);
+
     [h, min, s] = timerDisplay.textContent.split(":");
     document.getElementById('hours').value = h;
     document.getElementById('minutes').value = min;
     document.getElementById('seconds').value = s;
+
     startButton.disabled = false;
     pauseButton.disabled = true;
-
 }
 
 function resetTimer() {
